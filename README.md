@@ -1,8 +1,7 @@
-# Database Management System Project 
+# 📌 Database Management System Project
 
----
-
-## ❖・Introduction・❖
+## 🚀 Introduction
+This project is a web-based **Database Management System** built with **PHP, MySQL, HTML, and JavaScript**, using an **MVC architecture**. It allows users to efficiently **search, update, insert, and delete** database records through an interactive web interface. This project was first started in my CS365 Course at the University of Hartford.
 
 * Separating the content in those flat relations into separate relations (yes);
 * Establishing relationships between those relations(yes);
@@ -27,6 +26,19 @@ Include a button — prominently placed — that adds the ability to ref
 
 ---
 
+## 📂 Project Structure
+```
+├── entity-relationship-model/   # Contains ER diagram
+├── mysql/                       # Database schema setup
+│   ├── setup.sql                # SQL script to create database
+├── php/                         # PHP backend files
+│   ├── config.php               # Database connection settings
+│   ├── helpers.php              # Database interaction functions
+├── public/                      # Frontend HTML, CSS, and JavaScript
+├── .gitignore                    # Ignore unnecessary files
+├── README.md                     # Project documentation
+```
+
 ## ❖・Rules・❖
 
 * Paths used in any of the HTML or PHP files must be relative; no absolute paths.
@@ -41,3 +53,6 @@ Include a button — prominently placed — that adds the ability to ref
 * Do not add more files to this repo; all files required for this project are already included. If you must add one or more files, because you found an error in this assignment’s scaffold, first ask on our class’ Microsoft Group so everyone is aware of the mistake.
 * You must use EditorConfig, per the included `.editorconfig` file.
 
+
+## 📽️ Demo
+*A video walkthrough of the project will be available soon.*
